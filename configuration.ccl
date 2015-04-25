@@ -1,0 +1,10 @@
+# Configuration definitions for thorn VT
+
+PROVIDES VT
+{
+  SCRIPT src/detect.sh
+  LANG bash
+  OPTIONS VT_DIR VT_INC_DIRS VT_LIB_DIRS VT_LIBS
+}
+
+REQUIRES VT
